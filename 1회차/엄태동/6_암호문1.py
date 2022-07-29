@@ -9,7 +9,9 @@ for testcase in range(10):
     for idx in range(def_num):    # 네 번째 줄 : 명령어
         def_ = input().split()
         command.append(def_) #[[def_],[def_],[def_],[def_],[def_].....] 이런 꼴
-
+    for i in command:
+        
 def I(Password,x,y,s):
     for i in range(len(Password)):
         Password[x]
+
